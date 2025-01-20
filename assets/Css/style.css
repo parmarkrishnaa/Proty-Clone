@@ -486,6 +486,7 @@ ul li{
     background-color: #ffffff;
     margin-top: 90px;
     padding-bottom: 90px;
+    text-align: center;
 }
 
 .luxury .title h2{
@@ -508,11 +509,12 @@ ul li{
     position: relative;
     margin-top: 40px;
     overflow: hidden;
+    text-align: left;
 }
 
 .luxury-cart h2, p{
     padding-top: 20px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .luxury-cart p{
@@ -634,4 +636,291 @@ ul li{
     background-color: #f1913d;
     color: white;
 }
+
+.home .cart .home-cart{
+    width: 400px;
+    height: 420px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: none;
+    position: relative;
+    margin-top: 40px;
+    padding: 24px;
+    transition: 0.5s;
+}
+
+.home .cart .home-cart svg{
+    margin-bottom: 32px;
+    transition: 0.5s;
+}
+
+.home .cart .home-cart svg:hover{
+    transform: rotateY(180deg);
+}
+
+.home .cart .home-cart h2{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.home .cart .home-cart h2:hover{
+    color: #f1913d;
+}
+
+.home .cart .home-cart p{
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #5C5E61;
+}
+
+.home .cart .home-cart button{
+    width: 170px;
+    height: 50px;
+    border: 1px solid #f1913d;
+    background-color: #ffffff;
+    color: #f1913d;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 0px 10px;
+    transition: 0.5s;
+}
+
+.home .cart .home-cart button:hover{
+    background-color: #f1913d;
+    color: white;
+}
+
+.home .chat p{
+    font-size: 16px;
+    color: #2C2E3399;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.home .chat p a{
+    text-decoration: underline;
+    color: #f1913d;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.home .chat p a:hover{
+    color: #000000;
+}
+
 /* home end */
+
+/* loan start */
+
+.loan{
+    margin-top: 120px;
+    font-family: "Lexend", sans-serif;
+}
+
+.loan .content{
+    margin: 50px;
+}
+
+.loan .content .title h2{
+    color: #2c2e33;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.loan .content .title p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(44, 46, 51, 0.6);
+    margin-left: 0;
+}
+
+.loan form{
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+    color: #2C2E33;
+    margin-top: 40px;
+    display: flex;
+}
+
+.loan form input{
+    width: 250px;
+    height: 50px;
+    border: 1px solid #2c2e3311;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.loan .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.loan form .down .two{
+    width: 210px;
+}
+
+.loan form .down{
+    padding-left: 10px;
+}
+
+.loan form .down .percent{
+    width: 70px;
+}
+
+.loan form .down .ins{
+    width: 250px;
+}
+
+.loan .content .pay p{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(44, 46, 51, 0.6);
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.loan .content .pay p span{
+    color: #f1913d;
+    font-weight: 700;
+}
+
+
+.home .btn button{
+    margin-top: 40px;
+}
+
+.loan .loan-btn button{
+    width: 170px;
+    height: 50px;
+    background-color: #f1913d;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 0px 10px;
+    transition: 0.5s;
+}
+
+.loan .loan-btn button:nth-child(2){
+    border: 1px solid #f1913d;
+    background-color: #ffffff;
+    color: #f1913d;
+    margin-left: 20px;
+}
+
+.loan .loan-btn button:nth-child(2):hover{
+    background-color: #f1913d;
+    color: white;
+}
+
+/* loan end */
+
+/* explore start */
+
+.explore{
+    font-family: "Lexend", sans-serif;
+    background-color: #ffffff;
+    margin-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.explore .title{
+    margin-bottom: 50px;
+}
+
+.explore .title h2{
+    color: #000;
+    font-size: 40px;
+}
+
+.explore .title p{
+    font-size: 16px;
+    color: #2C2E3399;
+}
+
+.explore-cart{
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    margin: 5px 0px;
+}
+
+.explore-cart .explore-img{
+    transition: 0.5s;
+}
+
+.explore-cart .explore-img:hover{
+    transform: scale(1.1);
+}
+
+.explore-cart .explore-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.explore-cart .explore-content h6{
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+}
+
+.explore-cart .explore-content a{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffffff;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 20px;
+    left: 420px;
+    transition: 0.5s;
+}
+
+.explore-cart .explore-content a:hover{
+    background-color: #f1913d;
+    color: white;
+}
+
+/* explore end */
+
+/* listing start */
+
+.listing{
+    font-family: "Lexend", sans-serif;
+    background-color: #ffffff;
+    margin-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.listing .title h2{
+    color: #000;
+    font-size: 40px;
+}
+
+.listing .title p{
+    font-size: 16px;
+    color: #2C2E3399;
+}
+
+
+
+/* listing end */
