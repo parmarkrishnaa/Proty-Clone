@@ -416,7 +416,7 @@ header .menu ul li a:hover {
 .property-cart p{
     position: absolute;
     bottom: 25px;
-    left: 50px;
+    left: 30px;
 }
 
 .container .property-cart{
@@ -455,26 +455,7 @@ header .menu ul li a:hover {
 
 .linear-color{
     background-color: #f1913d;
-}
-
-ul li{
-    width: 90px;
-    height: 25px;
-    background-color: #f1913d;
-    color: #ffffff;
-    border-radius: 60px;
-    border: none;
-    position: absolute;
-    text-align: center;
-    font-size: 16px;
-    font-weight: var(--fw-600);
-    margin: 10px;
-}
-
-.text2{
-    background-color: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    left: 100px;
+    color: white;
 }
 
 /* property end */
@@ -549,7 +530,7 @@ ul li{
 
 .luxury-cart .inner-cart h2, p{
     padding-bottom: 10px;
-    margin-left: 0px;
+    margin-left: 10px;
 }
 
 .luxury-cart button{
@@ -570,6 +551,26 @@ ul li{
 .luxury-cart button:hover{
     background-color: #f1913d;
     color: #ffffff;
+}
+
+.luxury-cart ul li{
+    width: 90px;
+    height: 25px;
+    background-color: #f1913d;
+    color: #ffffff;
+    border-radius: 60px;
+    border: none;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    font-weight: var(--fw-600);
+    margin: 10px;
+}
+
+.luxury-cart .text2{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 100px;
 }
 
 /* luxury end */
@@ -654,8 +655,8 @@ ul li{
     transition: 0.5s;
 }
 
-.home .cart .home-cart svg:hover{
-    transform: rotateY(180deg);
+.home .cart .home-cart:hover svg{
+    transform: rotateY(360deg);
 }
 
 .home .cart .home-cart h2{
@@ -677,6 +678,10 @@ ul li{
     color: #5C5E61;
 }
 
+.home .btn button{
+    margin-top: 40px;
+}
+
 .home .cart .home-cart button{
     width: 170px;
     height: 50px;
@@ -691,7 +696,7 @@ ul li{
     transition: 0.5s;
 }
 
-.home .cart .home-cart button:hover{
+.home .cart .home-cart:hover button{
     background-color: #f1913d;
     color: white;
 }
@@ -790,11 +795,6 @@ ul li{
 .loan .content .pay p span{
     color: #f1913d;
     font-weight: 700;
-}
-
-
-.home .btn button{
-    margin-top: 40px;
 }
 
 .loan .loan-btn button{
@@ -955,17 +955,74 @@ ul li{
     font-weight: 600;
     line-height: 25px;
     margin-bottom: 10px;
+    color: #2c2e33;
 }
 
-.listing .listing-cart .content p{
+.listing .listing-cart .content h5, p{
+    margin-left: 15px;
+}
+
+.listing .listing-cart .content .ic{
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
     color: #5C5E61;
+}
+.ic .icc{
+    margin-left: 20px;
+    border-bottom: 1px solid grey;
+
 }
 
 .listing .listing-cart .content p i span{
     margin-left: 20px;
+}
+
+.listing .listing-cart ul li{
+    width: 90px;
+    height: 25px;
+    background-color: #f1913d;
+    color: #ffffff;
+    border-radius: 60px;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    font-weight: var(--fw-600);
+    margin: 10px;
+}
+
+.listing .listing-cart .content .b{
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 20px;
+}
+
+.listing .listing-cart .content .price-button h5{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #f1913d;
+    margin-top: 7px;
+}
+
+.listing .listing-cart .content .price-button button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #f1913d;
+    background-color: #ffffff;
+    color: #f1913d;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-right: 0px;
+    padding: 0px 10px;
+    transition: 0.5s;
+}
+
+.listing .listing-cart .content .price-button:hover button{
+    background-color: #f1913d;
+    color: white;
 }
 /* listing end */
