@@ -146,86 +146,82 @@ img {
 
 /* header start */
 
-header{
-    background-color: #ffffff;
-    padding: 5px 20px;
-    height: 80px;
+header {
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
 }
 
 header .logo a img{
-    width: 150px;
-    margin: 15px;
+    width: 136px;
+    height: 42px;
+}
+
+header .menu h2{
+    color: black;
 }
 
 header .menu ul li a {
+    padding: 16px 20px;
+    border-radius: 8px;
+    display: inline-block;
     font-size: 16px;
     font-weight: var(--fw-500);
-    font-family: "Noto Sans", serif;
-    color: black;
-    margin-left: 30px;
+    transition: 0.5s;
 }
 
-.ri-phone-fill{
-    color: orange;
+header .menu ul li:last-child a {
+    padding: 9px 22px;
+    background-color: #212529;
+    border: 1px solid #ffffff80;
+    font-size: 15px;
+    transition: 0.5s;
 }
 
-header .icons ul li a{
-    font-size: 20px;
-    font-weight: 700;
-    color: black;
-    margin-left: 10px;
+header .menu ul li a:hover {
+    background: rgba(9, 31, 67, 0.04);
+    color: #6664e4;
 }
 
-header .icons ul li a span{
-    color: grey;
-    border: 1px solid grey;
-    border-radius: 10px;
-    padding: 10px 10px;
+header .menu ul li:last-child a:hover {
+    background: #ffffff;
+    color: #212529;
 }
 
-header .icons ul li a button{
-    color: orange;
-    border: 1px solid orange;
-    border-radius: 10px;
-    background-color: white;
-    padding: 10px 20px;
-}
-
-header .icons ul li a button:hover{
-    background-color: #f1913d;
-    color: white;
-}
-
-header .menu ul li .drop-box{
+header .drop-down {
     position: absolute;
-    width: 170px;
     border: 0;
-    border-radius: 10px;
-    background-color: white;
+    border-radius: 0 0 8px 8px;
+    background-color: var(--white-color);
+    box-shadow: 0 0.5rem 1.875rem rgba(0, 0, 0, 0.15);
+    border-top: 2px solid var(--primary-color);
     padding: 10px;
-    margin-top: 20px;
     opacity: 0;
     visibility: hidden;
     transition: 0.5s;
     top: 110px;
-    z-index: 1;
 }
 
-header .menu ul li .drop-box ol li a{
-    width: 100%;
+header .drop-down ol li a {
     display: block;
-    padding: 11px 25px;
-    font-size: 14px;
-    font-weight: 400;
+    padding: 12px 22px 12px 22px;
+    color: #212529a7;
 }
 
-header .menu ul li .drop-box ol li{
-    margin-right: 0;
+header .drop-down ol li:last-child a {
+    background-color: transparent;
+    color: var(--text-color);
 }
 
+header .menu ul li .drop-down ol li:last-child:hover a {
+    background-color: rgba(137, 43, 226, 0.078);
+    color: var(--text-color);
+}
 
-header .drop-box ol li:hover a {
-    color: orange;
+header .drop-down ol li:hover a {
+    background-color: rgba(137, 43, 226, 0.078);
+    color: #000;
 }
 
 header .menu ul li:hover .drop-down {
@@ -233,52 +229,6 @@ header .menu ul li:hover .drop-down {
     visibility: visible;
     top: 63px;
 }
-
-.drop-down{
-    position: absolute;
-    width: 50%;
-    background-color: white;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.5s;
-    margin-top: 20px;
-    border-radius: 10px;
-    z-index: 1;
-}
-
-.drop-down .col-4{
-    padding: 10px;
-}
-
-.drop-down .col-4 ol li a{
-    font-weight: 400;
-    line-height: 30px;
-    margin-left: -5px;
-}
-
-.drop-down .col-4 h2{
-    margin-bottom: 10px;
-}
-
-header .drop-down ol li a:hover{
-    color: orange;
-}
-
-header .menu ul li .drop-down{
-    opacity: 1;
-    visibility: visible;
-}
-
-header .menu ul li a:hover{
-    color: orange;
-}
-
-/*
-
-header .menu ul li a:hover {
-    background: rgba(9, 31, 67, 0.04);
-    color: #6664e4;
-} */
 
 /* header end */
 
